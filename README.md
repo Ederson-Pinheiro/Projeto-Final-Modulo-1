@@ -100,8 +100,8 @@ utilizando o Jupyter Notebook, JupyterLab, Visual Studio Code ou Google Colab.
 
 # Etapas Desenvolvidas
 
-## 1. Análise Exploratória dos Dados (EDA)
-
+## 1. ``Análise Exploratória dos Dados (EDA)``
+```
 Nesta etapa foram realizadas:
 
 * análise da estrutura da base;
@@ -113,11 +113,11 @@ Nesta etapa foram realizadas:
 * geração de histogramas;
 * geração de boxplots;
 * mapa de calor da correlação de Pearson.
-
+```
 ---
 
-## 2. Tratamento dos Dados
-
+## ``2. Tratamento dos Dados``
+```
 Foram executadas as seguintes etapas:
 
 * remoção de registros duplicados;
@@ -125,10 +125,10 @@ Foram executadas as seguintes etapas:
 * substituição dos valores numéricos pela mediana;
 * substituição das variáveis categóricas pela moda;
 * identificação e tratamento de outliers utilizando o método IQR.
-
+```
 ---
 
-## 3. Engenharia de Atributos
+## ``3. Engenharia de Atributos``
 
 Foi criada a variável:
 
@@ -141,8 +141,8 @@ Essa variável representa o percentual da renda anual comprometido com o emprés
 
 ---
 
-## 4. Preparação dos Dados
-
+## 4. ``Preparação dos Dados``
+```
 Nesta etapa foram aplicadas as seguintes técnicas:
 
 * One-Hot Encoding;
@@ -150,24 +150,24 @@ Nesta etapa foram aplicadas as seguintes técnicas:
 * divisão entre treino e teste utilizando amostragem estratificada;
 * balanceamento das classes utilizando SMOTE apenas no conjunto de treinamento;
 * padronização dos dados com StandardScaler exclusivamente para o algoritmo KNN.
-
+```
 ---
 
-## 5. Modelagem
+## 5. ``Modelagem``
 
 Foram avaliados dois algoritmos supervisionados:
 
-### K-Nearest Neighbors (KNN)
-
+### ``K-Nearest Neighbors (KNN)``
+```
 Foram testados diferentes valores para o parâmetro:
 
 * K = 3
 * K = 5
 * K = 7
 * K = 9
-
-### Árvore de Decisão
-
+```
+### ``Árvore de Decisão``
+```
 Foram avaliadas diferentes profundidades:
 
 * max_depth = 3
@@ -176,11 +176,11 @@ Foram avaliadas diferentes profundidades:
 * max_depth = None
 
 Os resultados obtidos nos conjuntos de treinamento e teste foram comparados para identificar possíveis sinais de overfitting.
-
+```
 ---
 
-## 6. Avaliação
-
+## ``6. Avaliação``
+```
 Os modelos foram avaliados utilizando:
 
 * Accuracy
@@ -191,21 +191,21 @@ Os modelos foram avaliados utilizando:
 * Matriz de Confusão
 
 Além das métricas, foi realizada uma análise dos impactos dos Falsos Positivos e Falsos Negativos sob a perspectiva do negócio.
-
+```
 ---
 
-# Principais Resultados
-
+# ``Principais Resultados``
+```
 Após os experimentos, foi possível comparar o desempenho dos modelos KNN e Árvore de Decisão.
 
 O modelo selecionado apresentou melhor equilíbrio entre capacidade de generalização e desempenho no conjunto de teste, reduzindo os riscos associados à concessão de crédito para clientes inadimplentes.
-
+```
 ---
 
-# Conclusão
-
+# ``Conclusão``
+```
 O desenvolvimento deste projeto permitiu aplicar todas as etapas fundamentais de um pipeline de Machine Learning, incluindo limpeza dos dados, engenharia de atributos, preparação da base, treinamento, validação e interpretação dos resultados.
 
 Além do aspecto técnico, o projeto demonstrou a importância de alinhar as métricas dos modelos às necessidades do negócio. Em aplicações financeiras, reduzir a ocorrência de Falsos Negativos é essencial para minimizar prejuízos decorrentes da concessão de crédito a clientes com elevado risco de inadimplência.
-
+```
 ---
