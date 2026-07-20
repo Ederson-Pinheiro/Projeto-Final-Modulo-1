@@ -1,6 +1,6 @@
 # Sistema de Predição de Risco de Crédito com Machine Learning
 
-## Sobre o Projeto
+## ``Sobre o Projeto``
 
 Este projeto foi desenvolvido como atividade avaliativa da disciplina de **Machine Learning e Visão Computacional**. O objetivo é construir um pipeline completo de Ciência de Dados para prever a inadimplência de clientes que solicitam empréstimos, utilizando técnicas de pré-processamento, engenharia de atributos e algoritmos de aprendizado supervisionado.
 
@@ -8,7 +8,7 @@ Durante o desenvolvimento foram aplicadas todas as etapas de um projeto de Machi
 
 ---
 
-# Objetivo
+# ``Objetivo``
 
 Desenvolver um modelo preditivo capaz de classificar clientes com maior probabilidade de inadimplência, auxiliando instituições financeiras na tomada de decisão durante a concessão de crédito.
 
@@ -27,21 +27,21 @@ Como a aprovação de crédito para clientes inadimplentes gera perdas financeir
 
 ---
 
-# Base de Dados
+# ``Base de Dados``
 
 Foi utilizada a base de dados de **Risco de Crédito**, composta por informações financeiras e pessoais dos clientes.
 
 A variável alvo do projeto é:
 
-* **loan_status**
+* **loan_status**(``loan_status``)
 
   * 0 → Cliente adimplente
   * 1 → Cliente inadimplente
 
 ---
 
-# Tecnologias Utilizadas
-
+# ``Tecnologias Utilizadas``
+```
 * Python 3
 * Pandas
 * NumPy
@@ -51,26 +51,8 @@ A variável alvo do projeto é:
 * Imbalanced-Learn (SMOTE)
 * Google Colab
 * Git e GitHub
-
-# Estrutura do Projeto
-
-```text
-Projeto-ML-Credito/
-
-├── notebook.ipynb
-├── README.md
-├── requirements.txt
-├── dataset/
-│   └── credit_risk.csv
-├── imagens/
-│   ├── heatmap.png
-│   ├── histograma.png
-│   ├── matriz_knn.png
-│   └── matriz_tree.png
-└── .gitignore
 ```
-
-# Como Executar o Projeto
+# ``Como Executar o Projeto``
 
 ## Clonar o repositório
 
