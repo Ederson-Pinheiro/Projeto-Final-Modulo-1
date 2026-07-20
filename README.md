@@ -1,7 +1,7 @@
 # Projeto-Final-Modulo-1
 # Sistema de Predição de Risco de Crédito com Machine Learning
 
-## Descrição
+## ``Descrição``
 
 Este projeto tem como objetivo desenvolver um pipeline completo de Machine Learning capaz de prever a probabilidade de inadimplência de clientes que solicitam empréstimos.
 
@@ -9,7 +9,7 @@ Foram aplicadas técnicas de Análise Exploratória de Dados (EDA), tratamento e
 
 ---
 
-## Objetivo
+## ``Objetivo``
 
 Construir um modelo preditivo que auxilie instituições financeiras na tomada de decisão sobre concessão de crédito, reduzindo riscos de inadimplência.
 
@@ -27,18 +27,18 @@ O objetivo do modelo é minimizar principalmente os falsos negativos.
 
 ## ``Tecnologias utilizadas``
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-Learn
-- Imbalanced-Learn (SMOTE)
+- ``Python``
+- ``Pandas``
+- ``NumPy``
+- ``Matplotlib``
+- ``Seaborn``
+- ``Scikit-Learn``
+- ``Imbalanced-Learn (SMOTE)``
 
 ---
 
 ## ``Dicionário de Dados``
-
+```
 | Coluna | Descrição |
 |---------|-----------|
 | person_age | Idade do cliente |
@@ -54,7 +54,7 @@ O objetivo do modelo é minimizar principalmente os falsos negativos.
 | cb_person_cred_hist_length | Tempo de histórico de crédito |
 | loan_status | Variável alvo |
 | comprometimento_renda | Nova variável criada |
-
+```
 ---
 
 ## Etapas do Projeto
