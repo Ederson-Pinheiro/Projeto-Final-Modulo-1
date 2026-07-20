@@ -15,7 +15,7 @@ Construir um modelo preditivo que auxilie instituições financeiras na tomada d
 
 ---
 
-## Problema de ``Negócio``
+## ``Problema de Negócio``
 
 Conceder crédito para clientes inadimplentes gera prejuízos financeiros.
 
@@ -25,7 +25,7 @@ O objetivo do modelo é minimizar principalmente os falsos negativos.
 
 ---
 
-## Tecnologias utilizadas
+## ``Tecnologias utilizadas``
 
 - Python
 - Pandas
@@ -37,7 +37,7 @@ O objetivo do modelo é minimizar principalmente os falsos negativos.
 
 ---
 
-## Dicionário de Dados
+## ``Dicionário de Dados``
 
 | Coluna | Descrição |
 |---------|-----------|
