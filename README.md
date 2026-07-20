@@ -54,19 +54,19 @@ A variável alvo do projeto é:
 ```
 # ``Como Executar o Projeto``
 
-## Clonar o repositório
+## ``Clonar o repositório``
 
 ```bash
 git clone https://github.com/SEU-USUARIO/Projeto-ML-Credito.git
 ```
 
-## Instalar as dependências
+## ``Instalar as dependências``
 
 ```bash
 pip install -r requirements.txt
 ```
 
-## Executar o notebook
+## ``Executar o notebook``
 
 Abra o arquivo:
 
@@ -78,8 +78,8 @@ utilizando o Jupyter Notebook, JupyterLab, Visual Studio Code ou Google Colab.
 
 ---
 
-# Dicionário de Dados
-
+# ``Dicionário de Dados``
+```
 | Variável                   | Descrição                        |
 | -------------------------- | -------------------------------- |
 | person_age                 | Idade do cliente                 |
@@ -95,7 +95,7 @@ utilizando o Jupyter Notebook, JupyterLab, Visual Studio Code ou Google Colab.
 | cb_person_cred_hist_length | Tempo de histórico de crédito    |
 | loan_status                | Variável alvo                    |
 | comprometimento_renda      | Variável criada neste projeto    |
-
+```
 ---
 
 # Etapas Desenvolvidas
